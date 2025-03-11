@@ -13,5 +13,5 @@ app.get("/env", (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+    console.log(`Server is running on port ${process.env.PORT}`);
 });
